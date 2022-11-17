@@ -1,0 +1,50 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: darksalmon;
+}
+nav {
+  padding: 20px;
+}
+ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+ul li::after {
+  content: " →";
+  font-weight: bold;
+  color: red;
+}
+
+ul li::before {
+  content: "🎵";
+}
+
+.main {
+  text-align: center;
+  height: 80vh;
+}
+
+.main p {
+  text-align: justify;
+}
+
+#first-parrafo::first-letter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: brown;
+}
+
+#second-parrafo::selection {
+  background-color: chartreuse;
+}
+
+.footer {
+  background-color: darksalmon;
+  height: 80px;
+  padding: 20px;
+  text-align: end;
+}
