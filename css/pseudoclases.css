@@ -56,8 +56,10 @@ ul li:active {
 }
 
 .section-series__articles:hover {
+  transition: 0.3s;
   width: 210px;
 }
 .section-series__articles img:hover {
+  transition: 0.3s;
   filter: grayscale(0%);
 }
